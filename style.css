@@ -1,0 +1,23 @@
+html, body {
+    background: lightblue;
+    height: 100%;
+}
+
+
+
+.flex {
+    display: flex;
+}
+.align-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+
+@media (min-width: 60em) {
+    html {
+        font-size: 2rem;
+    }
+}
