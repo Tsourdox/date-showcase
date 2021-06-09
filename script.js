@@ -13,6 +13,8 @@ function main() {
     const weekdayH2 = document.createElement('h2');
     weekdayH2.innerText = dateInfo.weekday;
     main.append(weekdayH2);
+
+    // setInterval() användbart för att ex visa aktuell tid för en klocka.
 }
 
 /**
